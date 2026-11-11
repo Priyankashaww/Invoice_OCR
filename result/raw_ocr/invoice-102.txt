@@ -1,0 +1,12 @@
+SYNTHETIC TEST INVOICE
+Invoice: TNM-102
+
+Vendor: Beta Print Studio
+Date: 2026-10-02
+Currency: INR
+
+Subtotal: 1500.00
+
+Tax: 270.00
+
+Total: 1770.00

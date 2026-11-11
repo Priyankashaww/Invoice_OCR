@@ -1,0 +1,10 @@
+SYNTHETIC TEST INVOICE
+Invoice: TNM-103
+Vendor: Gamma Paper Co
+Date: [not supplied]
+Currency: INR
+Subtotal: 1000.00
+
+Tax: 180.00
+
+Total: 1120.00

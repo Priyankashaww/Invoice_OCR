@@ -1,0 +1,98 @@
+{
+  "needs_review": [
+    {
+      "source_filename": "invoice-101-copy.png",
+      "file_hash": "0a1ab137d9830cab38378b364554f1a232466a3622b4575463551c13c8ddc1c2",
+      "ocr_text_path": "result\\raw_ocr\\invoice-101-copy.txt",
+      "extracted_fields": {
+        "invoice": null,
+        "vendor": "ACME OFFICE SUPPLIES",
+        "date": null,
+        "currency": "INR",
+        "subtotal": "1200.50",
+        "tax": "216.09",
+        "total": "1416.59"
+      },
+      "validation_errors": [
+        "date: Ambiguous date '01/10/2026': cannot determine day/month order",
+        "Missing invoice",
+        "Missing date"
+      ],
+      "status": "needs_review",
+      "review_reasons": [
+        "date: Ambiguous date '01/10/2026': cannot determine day/month order",
+        "Missing invoice",
+        "Missing date"
+      ]
+    },
+    {
+      "source_filename": "invoice-101.png",
+      "file_hash": "9bf161d252777f970072379dec312b080e54b1263272395dbb9ed3612c0b38ca",
+      "ocr_text_path": "result\\raw_ocr\\invoice-101.txt",
+      "extracted_fields": {
+        "invoice": null,
+        "vendor": "Acme Office Supplies",
+        "date": "2026-10-01",
+        "currency": "INR",
+        "subtotal": "1200.50",
+        "tax": "216.09",
+        "total": "1416.59"
+      },
+      "validation_errors": [
+        "Missing invoice"
+      ],
+      "status": "needs_review",
+      "review_reasons": [
+        "Missing invoice"
+      ]
+    },
+    {
+      "source_filename": "invoice-102.png",
+      "file_hash": "12bd2a740feb5573ac69414f5ac1d28fe344fe3062875478dfcff64f891c531c",
+      "ocr_text_path": "result\\raw_ocr\\invoice-102.txt",
+      "extracted_fields": {
+        "invoice": null,
+        "vendor": "Beta Print Studio",
+        "date": "2026-10-02",
+        "currency": "INR",
+        "subtotal": "1500.00",
+        "tax": "270.00",
+        "total": "1770.00"
+      },
+      "validation_errors": [
+        "Missing invoice"
+      ],
+      "status": "needs_review",
+      "review_reasons": [
+        "Missing invoice"
+      ]
+    },
+    {
+      "source_filename": "invoice-103-review.png",
+      "file_hash": "220bbf4b48801265b05ea44e8a1c115a6e33714a9cf1502c9d96f97c344eb020",
+      "ocr_text_path": "result\\raw_ocr\\invoice-103-review.txt",
+      "extracted_fields": {
+        "invoice": null,
+        "vendor": "Gamma Paper Co",
+        "date": null,
+        "currency": "INR",
+        "subtotal": "1000.00",
+        "tax": "180.00",
+        "total": "1120.00"
+      },
+      "validation_errors": [
+        "date: Invalid or unsupported invoice date: [not supplied]",
+        "Missing invoice",
+        "Missing date",
+        "Subtotal + tax does not equal total"
+      ],
+      "status": "needs_review",
+      "review_reasons": [
+        "date: Invalid or unsupported invoice date: [not supplied]",
+        "Missing invoice",
+        "Missing date",
+        "Subtotal + tax does not equal total"
+      ]
+    }
+  ]
+}

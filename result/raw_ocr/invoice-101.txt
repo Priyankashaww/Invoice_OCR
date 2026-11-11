@@ -1,0 +1,13 @@
+SYNTHETIC TEST INVOICE
+Invoice: TNM-101
+
+Vendor: Acme Office Supplies
+Date: 2026-10-01
+
+Currency: INR
+
+Subtotal: 1200.50
+
+Tax: 216.09
+
+Total: 1416.59
